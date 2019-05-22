@@ -2,7 +2,7 @@
 ```sh
 #!/bin/bash 
 
-# http://tanzil.net/res/audio/afasy/002255.mp3
+# https://verses.quran.com/wbw/001_001_001.mp3
 
 maxSura=114
 maxVerse=286
