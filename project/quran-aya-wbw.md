@@ -6,7 +6,7 @@
 
 maxSura=114
 maxVerse=286
-maxWord=1000
+maxWord=500
 
 for sura in {1..114}
 do
