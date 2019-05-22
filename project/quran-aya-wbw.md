@@ -1,8 +1,9 @@
 ## Download Quran.com Verses Word by Word
+* [https://verses.quran.com/wbw/001_002_001.mp3](https://verses.quran.com/wbw/001_002_001.mp3)
 ```sh
 #!/bin/bash 
 
-# [https://verses.quran.com/wbw/001_002_001.mp3](https://verses.quran.com/wbw/001_002_001.mp3)
+# https://verses.quran.com/wbw/001_002_001.mp3
 
 maxSura=114
 maxVerse=286
