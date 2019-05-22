@@ -47,10 +47,12 @@ do
 		echo $status
 
 		if [[ "$status" == 200 ]]
-		then echo "Found"; 
-				$(wget --no-check-certificate https://verses.quran.com/wbw/$suraStr'_'$verseStr'_'$wordStr.mp3);
-		else echo "Not Found"; 
-				break;
+		then 
+			echo "Found"; 
+			$(wget --no-check-certificate https://verses.quran.com/wbw/$suraStr'_'$verseStr'_'$wordStr.mp3);
+		else 
+			echo "Not Found"; 
+			break;
 		fi      
 	done
    done
